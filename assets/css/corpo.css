@@ -1,0 +1,33 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* border: 0.1rem solid red; */
+    height: 2rem;
+    background-color: #252523;
+    color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+section {
+    /* border: .1rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: left;
+}
